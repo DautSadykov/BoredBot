@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #ffc857;
+    color: #323031;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Chivo Mono', monospace;
+}
+
+.flex_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0 auto;
+    color: #084c61;
+    font-size: 2.5em;
+}
+
+.text_container {
+    height: 2em;
+    max-width: 20em;
+    background: #CFAA5A;
+    border-radius: .5em;
+    margin: 1.5em;
+    padding: 1em;
+    font-size: 1.5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+button {
+    width: 10em;
+    height: 3em;
+    border: none;
+    border-radius: 5px;
+    margin: .5em auto;
+    background: #177e89;
+    color: #ffc857;
+    font-size: 1.3em;
+    font-family: 'Chivo Mono', monospace;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #0a627f;
+}
